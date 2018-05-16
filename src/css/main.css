@@ -9599,10 +9599,9 @@ body {
 
 .main-block {
   width: 500px;
-  height: 800px;
+  height: 500px;
   border: 1px solid #000;
-  position: relative;
-  overflow: hidden; }
+  position: relative; }
   .main-block__layer {
     position: absolute;
     top: 0;
