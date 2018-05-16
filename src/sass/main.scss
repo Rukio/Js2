@@ -13,10 +13,11 @@ body {
 
 .main-block {
     width: 500px;
-    height: 400px;
+    height: 800px;
     border: 1px solid #000;
     position: relative;
-
+    overflow: hidden;
+    
     &__layer {
         position: absolute;
         top: 0;
