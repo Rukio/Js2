@@ -1,15 +1,15 @@
 var mainBlock,
     blockLayer,
-    layer = 0,
-    layerY = 0;
+    layer       = 0,
+    layerY      = 0,
+    scrollStep  = 20,
+    blockWidth  = 400;
 
 window.onload = function() {
 
     mainBlock   = document.querySelector('.main-block'),
     blockLayer  = document.querySelectorAll('.main-block__layer'),
-    scrollStep  = 20,
     blocksTotal = blockLayer.length - 1;
-    blockWidth  = 400;
 
     mainBlock.onmousewheel = function(event) {
         console.log(event);
