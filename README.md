@@ -1,3 +1,2 @@
 # Js2
-
-Just some example on how you can implement a page with an unusual scrolling system.
+Just trying to make some unusual content scrolling system.
